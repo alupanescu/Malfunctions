@@ -1,4 +1,4 @@
-# Malfunctions
+
 
 # Malfunctions.ro
 Este un website ce va contine sesizari cu diverse defectiuni raportate de catre userii ce isi desfasoara activitatea in fabrici, spitale, scoli, institutii etc. 
