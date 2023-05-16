@@ -1,15 +1,15 @@
+from django.contrib.auth.mixins import LoginRequiredMixin
 from django.http import HttpResponse
 from django.shortcuts import render
 from django.template import loader
+from django.urls import reverse_lazy
+from django.views.generic import CreateView
 
 from .models import Malfunction
 
 
-# Create your views here.
-def index(request):
-    context = {
-        'segment':'index',
-        'malfunctions':Malfunction.objects.all()
-               }
-    template=loader.get_template("report_a_malfunction/index.html")
-    return HttpResponse(template.render(context, request))
+class MalfunctionCreateView(LoginRequiredMixin, CreateView):
+    model = Malfunction
+    template_name = "report_a_malfunction/index.html"
+    fields = '__all__'
+    success_url = reverse_lazy('homepage')

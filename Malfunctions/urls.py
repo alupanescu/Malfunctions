@@ -21,4 +21,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path('', include('Home.urls')),
     path('malfunctions/', include('report_a_malfunction.urls')),
+    path('', include('django.contrib.auth.urls')),
+    path('', include('userextend.urls')),
+
 ]
