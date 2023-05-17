@@ -23,5 +23,6 @@ urlpatterns = [
     path('malfunctions/', include('report_a_malfunction.urls')),
     path('', include('django.contrib.auth.urls')),
     path('', include('userextend.urls')),
+    path('malfunctions_status/', include('report_a_malfunction.urls')),
 
 ]

@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% block title %} Malfunctions Status {% endblock %}
+
+{% block content %}
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th> Malfunction Name</th>
+                        <th> Malfunction Location</th>
+                        <th> Malfunction Details</th>
+                        <th> Actions</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for malfunction in all_malfunctions %}
+                        <tr>
+                            <td>{{ malfunction.name }}</td>
+                            <td>{{ malfunction.location }}</td>
+                            <td>{{ malfunction.explanation }}</td>
+                            <td>
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                        Update
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Pending</a></li>
+                                        <li><a class="dropdown-item" href="#">Resolved</a></li>
+                                        <li><a class="dropdown-item" href="#">Archive</a></li>
+                                        <li><a class="dropdown-item" href="#">Delete</a></li>
+                                    </ul>
+                                </div>
+                            </td>
+
+
+                        </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
