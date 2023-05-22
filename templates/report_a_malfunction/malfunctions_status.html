@@ -25,14 +25,13 @@
                                 <div class="dropdown">
                                     <button class="btn btn-secondary dropdown-toggle" type="button"
                                             data-bs-toggle="dropdown" aria-expanded="false">
-                                        Update
+                                        More Actions
                                     </button>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Pending</a></li>
-                                        <li><a class="dropdown-item" href="#">Resolved</a></li>
-                                        <li><a class="dropdown-item" href="#">Archive</a></li>
-                                        <li><a class="dropdown-item" href="#">Delete</a></li>
+                                        <li><a class="dropdown-item" href="{% url "update-malfunctions" malfunction.id %}">Update</a></li>
+                                        <li><a class="dropdown-item" href="{% url "delete-malfunctions" malfunction.id %}">Delete</a></li>
                                     </ul>
+
                                 </div>
                             </td>
 

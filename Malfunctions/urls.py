@@ -25,4 +25,5 @@ urlpatterns = [
     path('', include('userextend.urls')),
     path('malfunctions_status/', include('report_a_malfunction.urls')),
 
+
 ]
