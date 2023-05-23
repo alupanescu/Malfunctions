@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cde3f5d-d0a8-4805-9330-4d4a15322b21" name="Changes" comment=" commit">
-      <change afterPath="$PROJECT_DIR$/static/css/my_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/my_script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/registration/password_change_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/report_a_malfunction/delete_malfunctions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/report_a_malfunction/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/report_a_malfunction/update_malfunctions.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Malfunctions/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Malfunctions/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Malfunctions/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Malfunctions/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report_a_malfunction/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/report_a_malfunction/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report_a_malfunction/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/report_a_malfunction/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report_a_malfunction/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/report_a_malfunction/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report_a_malfunction/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/report_a_malfunction/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_a_malfunction/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/report_a_malfunction/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Home/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Home/homepage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/report_a_malfunction/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/report_a_malfunction/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/report_a_malfunction/malfunctions_status.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/report_a_malfunction/malfunctions_status.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +91,7 @@
       <updated>1683133650687</updated>
       <workItem from="1683133664982" duration="1157000" />
       <workItem from="1683134847496" duration="66493000" />
-      <workItem from="1684335031482" duration="31615000" />
+      <workItem from="1684335031482" duration="41932000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1683134406517</created>
@@ -178,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684347894259</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary=" commit">
+      <created>1684778683992</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684778683992</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
